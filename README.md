@@ -27,7 +27,7 @@ The following databases are supported in a Rails environment
 
 ### What is a Model and where does it fit into all of this ?
 
-Not too long ago programs connected to databases directly, and queried (extracted a defined set of data) data using SQL . SQL  stands for ' structured query language ' and is the standard language used to communicate with Relational databases. This is a very low level implementation where we might have to write many lines of SQL code just to extract a few rows of data.
+Not too long ago programs connected to databases directly, and queried (extracted a defined set of data) data using SQL . SQL  stands for ' structured query language ' and is the standard language used to communicate with Relational databases. This is a very low level implementation where we might have to write many lines of SQL code just to extract a few rows of data. (observe the php code below)
 
 ```php
 $conn = new mysqli($servername, $username, $password, $dbname);
